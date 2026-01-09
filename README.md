@@ -20,10 +20,10 @@
 1. Create GitHub account if needed and send username to PMs.
 2. Download [Git](https://git-scm.com/install/) and add to PATH.
 3. In terminal, in folder where you wish to store your project: <br>
-    a. git clone https://github.com/bmesbuildteamucla/2026-projects.git <br>
-    b. git checkout <teamBranch>
+    a. ```git clone https://github.com/bmesbuildteamucla/2026-projects.git``` <br>
+    b. ```git checkout <teamBranch>```
 4. Make changes to your project.
 5. In the terminal, in the folder where your project is stored: <br>
-    a. git add -A <br>
-    b. git commit -m "changes you made" <br>
-    c. git push (set upstream branch and sign in if needed)
+    a. ```git add -A``` <br>
+    b. ```git commit -m "changes you made"``` <br>
+    c. ```git push``` (set upstream branch and sign in if needed)
