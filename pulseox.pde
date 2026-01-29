@@ -1,13 +1,10 @@
 import processing.serial.*;
-import cc.arduino.*;
-import org.firmata.*;
 
-Arduino myESP;
-int pin = 10; //Connect to pin 4 on ESP32
+Serial myPort;
 
 void setup() {
-  myESP = new Arduino(this, Arduino.list()[0], 115200);
-
+  myPort = new Serial(this, "COMX", 115200); //replace COMX with your serial port
+  myPort.bufferUntil('\n');
 }
 
 void draw() {
